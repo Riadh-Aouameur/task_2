@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="556.0" prefWidth="741.0" style="-fx-background-color: #1974b5;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="46.0" layoutY="110.0" prefHeight="370.0" prefWidth="650.0" style="-fx-background-color: white;">
+         <children>
+            <ComboBox fx:id="comboGroupe" cache="true" cacheHint="DEFAULT" layoutX="342.0" layoutY="33.0" nodeOrientation="RIGHT_TO_LEFT" onAction="#comboGroupe" prefHeight="27.0" prefWidth="168.0" styleClass="combobox" />
+            <Label layoutX="484.0" layoutY="36.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="21.0" prefWidth="90.0" text="البـــــاب:" textOverrun="CLIP">
+               <font>
+                  <Font name="Arial Bold" size="18.0" fx:id="x1" />
+               </font>
+            </Label>
+            <ComboBox fx:id="comboArticle" layoutX="87.0" layoutY="33.0" nodeOrientation="RIGHT_TO_LEFT" onAction="#comboArticle" prefHeight="27.0" prefWidth="168.0" />
+            <Label layoutX="247.0" layoutY="36.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="21.0" prefWidth="53.0" text="المادة:" textOverrun="CLIP">
+               <font>
+                  <Font name="Arial Bold" size="18.0" fx:id="x1" />
+               </font>
+            </Label>
+            <ListView layoutX="87.0" layoutY="100.0" prefHeight="236.0" prefWidth="487.0" />
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="263.0" layoutY="14.0" prefHeight="45.0" prefWidth="215.0" text="الاعتمادات المالية" textFill="#f5f2f2">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
